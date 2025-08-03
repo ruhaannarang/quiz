@@ -3,7 +3,8 @@
     margin: 0;
     font-family: Bungee;
     overflow: hidden;
-
+    user-select: none;
+    
 }
 .bg{
     height: 100vh;
