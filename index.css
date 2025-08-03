@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: Bungee;
+    overflow: hidden;
 
 }
 .bg{
@@ -62,4 +63,80 @@
     font-size: 6rem;
     color: #e38453;
     padding: 30px;
+}
+
+.qtype{
+    background-color: #ef5451;
+    border-radius: 20px;
+    font-size: xx-large;
+    font-family: bungee;
+    color: white;
+    padding: 10px 30px;
+
+
+
+}
+.points{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: #ef5451;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.ques{
+    width: 500px;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #e38453;
+    font-size: xx-large;
+    text-align: center;
+}
+.options{
+    display: grid;
+    grid-template-areas:
+         "opt1 opt2"
+         "opt3 opt4";
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.opt{
+    padding: 5px 10px;
+    border: 2px solid #e38453;
+    color: #e38453;
+    font-size: xx-large;
+    border-radius: 20px;
+    text-align: center;
+    min-width: 60px;
+    max-width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.opt:hover{
+    background-color: #e38453;
+    color: white;
+}
+.opt.selected {
+  background-color: #e38453; /* Permanent blue on click */
+  color: white;
+}
+.score{
+     text-align: center;
+    font-family: Bungee;
+    font-size: 3rem;
+    padding-top: 40px;
+    color: #e38453;
 }
