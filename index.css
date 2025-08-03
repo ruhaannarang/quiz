@@ -94,7 +94,7 @@
 }
 
 .ques{
-    width: 500px;
+    width: 400px;
     /* border: 1px solid black; */
     margin-top: 50px;
     margin-bottom: 50px;
@@ -141,3 +141,9 @@
     padding-top: 40px;
     color: #e38453;
 }
+
+/* @media screen and (max-width: 600px) {
+    .ques{
+        width: 400px;
+    }
+} */
